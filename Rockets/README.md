@@ -69,3 +69,6 @@ Objective: Rockets start at the bottom center and attempt to reach a black dot n
 - Shows generation, mutation rate, lifetime, and average accuracy.
 
 ## 📸 Screenshots
+<img src="https://github.com/user-attachments/assets/bd8b99ba-9522-42b0-9d1b-d6582be41abc" width="400">
+<img src="https://github.com/user-attachments/assets/7396a15a-d224-4185-b8c7-01051bb0da48" width="400">
+<img src="https://github.com/user-attachments/assets/ed711091-d023-4408-b36a-0ca4152479a8" width="400">
