@@ -41,3 +41,7 @@ This ensures flowers with higher fitness are more likely (but not guaranteed) to
    python sketch.py
 
 ## 🖼️ Screenshots
+<img src="https://github.com/user-attachments/assets/f8db3bc1-06e3-463f-b4ea-6a499b583beb" width="400">
+<img src="https://github.com/user-attachments/assets/b63207a9-b7f4-4c4d-a52e-cc63259f73fb" width="400">
+<img src="https://github.com/user-attachments/assets/5a2d0eed-d6ca-4203-a968-641207727606" width="400">
+<img src="https://github.com/user-attachments/assets/d3c8a0dc-101a-4baf-bacc-922c57e8863f" width="400">
