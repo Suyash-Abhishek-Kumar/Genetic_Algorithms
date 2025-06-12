@@ -3,7 +3,7 @@
 This repository contains **three interactive projects** built using **Genetic Algorithms (GA)**, each with a different evolutionary goal:
 
 1. 🌸 [Interactive Selection](./Interactive_Selection/) – Evolve beautiful flowers based on user interaction.
-2. 🧬 [To Be or Not To Be](./To_be_or_not_to_be/) – Evolve a string to match a target phrase.
+2. 🧬 [To Be or Not To Be](./to_be_or_not_to_be/) – Evolve a string to match a target phrase.
 3. 🚀 [Finding the Dot](./FindingTheDot/) – Guide rockets to a target while avoiding obstacles.
 
 These projects demonstrate the **core components** of Genetic Algorithms in visually engaging and intuitive ways.
@@ -79,7 +79,7 @@ This repo was created to explore Genetic Algorithms in a hands-on, visual way. B
 ## 📎 Links to Individual Projects
 🌸 [Interactive Selection](./Interactive_Selection/)
 
-🧬 [To Be or Not To Be](./To_be_or_not_to_be/)
+🧬 [To Be or Not To Be](./to_be_or_not_to_be/)
 
 🚀 [Finding the Dot](./FindingTheDot/)
 
