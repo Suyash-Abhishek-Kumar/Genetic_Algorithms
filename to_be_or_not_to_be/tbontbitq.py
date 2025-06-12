@@ -16,7 +16,7 @@ class Screen:
         self.tiny_font = pygame.font.Font(None, 25)
         self.big_font = pygame.font.Font(None, 56)
         self.medium_font = pygame.font.Font(None, 38)
-        self.target = "Who is the murderer?"
+        self.target = "To be or not to be"
         self.popmax = 100
         self.mutation_rate = 0.01
         self.genBests = []

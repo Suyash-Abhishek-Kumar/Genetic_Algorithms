@@ -34,6 +34,7 @@ class Population:
         for i in self.population:
             fitness = self.stabilize(i.fitness, 0, maxFitness, 0, 1)
             n = floor(fitness * 100)
+            n = n**2
             for _ in range(n):
                 self.matingPool.append(i)
         
