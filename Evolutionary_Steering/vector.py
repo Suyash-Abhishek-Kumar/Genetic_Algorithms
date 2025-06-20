@@ -28,10 +28,26 @@ class Vector2D:
         elif type(other) == tuple:
             self.coords[0] += other[0]
             self.coords[1] += other[1]
+        self.coords[0] = round(self.coords[0], 2)
+        self.coords[1] = round(self.coords[1], 2)
+        self._update_magnitude()
+    
+    def sub (self, other):
+        if type(other) == Vector2D:
+            self.coords[0] -= other.x()
+            self.coords[1] -= other.y()
+        elif type(other) == tuple:
+            self.coords[0] -= other[0]
+            self.coords[1] -= other[1]
+        self.coords[0] = round(self.coords[0], 2)
+        self.coords[1] = round(self.coords[1], 2)
+        self._update_magnitude()
+        
     
     def mul(self, other):
         self.coords[0] *= other
         self.coords[1] *= other
+        self._update_magnitude()
     
     def setMag(self, newMag):
         scaling_factor = newMag/self.magnitude
