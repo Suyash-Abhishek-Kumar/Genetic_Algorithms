@@ -51,7 +51,7 @@ class Vector2D:
             dist = ((self.coords[0] - other.x())**2 + (self.coords[1] - other.y())**2)**0.5
         elif type(other) == tuple:
             dist = ((self.coords[0] - other[0])**2 + (self.coords[1] - other[1])**2)**0.5
-        return dist
+        return dist 
 
     def get(self): return self.coords
     def x(self): return self.coords[0]
