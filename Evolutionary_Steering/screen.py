@@ -7,7 +7,7 @@ class Screen:
     def __init__(self):
         self.w, self.h = 850, 650
         self.screen = pygame.display.set_mode((self.w, self.h))
-        pygame.display.set_caption("Genetic Algorithm Program 3: Finding the Dot")
+        pygame.display.set_caption("Genetic Algorithm Program 4: Evolutionary Steering")
         self.clock = pygame.time.Clock()
         self.tiny_font = pygame.font.Font(None, 25)
         self.big_font = pygame.font.Font(None, 56)
