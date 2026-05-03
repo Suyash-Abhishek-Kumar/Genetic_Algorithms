@@ -4,7 +4,7 @@ import pygame #type:ignore
 
 class Vehicle:
     def __init__(self, w, h):
-        self.pos = Vector2D([randint(w/2-20, w/2+20), randint(h/2-20, h/2+20)])
+        self.pos = Vector2D([randint(int(w/2-20), int(w/2+20)), randint(int(h/2-20), int(h/2+20))])
         self.vel = Vector2D()
         self.acc = Vector2D()
         self.maxForce = 0.3
